@@ -17,10 +17,19 @@ BarberIA es una solución diseñada para transformar la experiencia de consulta 
 - **Inteligencia Artificial:** Gemini 2.5 Flash Image Preview.
 - **Backend/Cloud:** Firebase (Cloud Functions, Firestore Database, Authentication, Cloud Storage).
 
-## 📦 Estructura del Proyecto
+## 🌐 Arquitectura y Repositorios
+
+Para garantizar un código limpio, el proyecto se divide en dos módulos independientes:
+
+1.  **Mobile App (Este repositorio):** Contiene toda la interfaz de usuario, lógica de cliente y persistencia de datos.
+2.  **AI Service Backend:** Repositorio independiente con la lógica de Cloud Functions en TypeScript para el análisis facial.
+    * 🔗 [Ver Repositorio del Backend aquí](https://github.com/JosueEspinoza19/barber-ia-functions.git)
+
+## 📦 Estructura de este Proyecto
 
 * **`/lib`**: Código fuente de la aplicación móvil (UI, Modelos y Lógica de Servicios).
-* **`/functions`**: Lógica de backend (funcion de analisis) para la comunicación segura con servicios externos.
 * **`/assets`**: Identidad visual, iconos y recursos de diseño del proyecto.
+* **`firebase.json` / `.firebaserc`**: Archivos de configuración para la conexión con los servicios de Firebase.
 
+---
 *Proyecto desarrollado para la materia de Desarrollo de Aplicaciones Innovadoras - UABC.*
