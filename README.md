@@ -25,11 +25,12 @@ Para garantizar un código limpio, el proyecto se divide en dos módulos indepen
 2.  **AI Service Backend:** Repositorio independiente con la lógica de Cloud Functions en TypeScript para el análisis facial.
     * 🔗 [Ver Repositorio del Backend aquí](https://github.com/JosueEspinoza19/barber-ia-functions.git)
 
-## 📦 Estructura de este Proyecto
+## 📦 Estructura del Repositorio
 
 * **`/lib`**: Código fuente de la aplicación móvil (UI, Modelos y Lógica de Servicios).
-* **`/assets`**: Identidad visual, iconos y recursos de diseño del proyecto.
+* **`/android`, `/ios`**: Archivos de configuración de plataforma para el despliegue nativo.
 * **`firebase.json` / `.firebaserc`**: Archivos de configuración para la conexión con los servicios de Firebase.
+* **`pubspec.yaml`**: Gestión de dependencias y activos del proyecto.
 
 ---
 *Proyecto desarrollado para la materia de Desarrollo de Aplicaciones Innovadoras - UABC.*
