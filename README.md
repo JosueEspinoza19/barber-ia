@@ -34,3 +34,17 @@ Para garantizar un código limpio, el proyecto se divide en dos módulos indepen
 
 ---
 *Proyecto desarrollado para la materia de Desarrollo de Aplicaciones Innovadoras - UABC.*
+
+## Ejecucion de la app
+
+**Pantalla para tomar foto**  
+<img src="https://github.com/user-attachments/assets/019918c5-098e-46ec-a03f-12591505a0f2" width="400">  
+
+**Foto tomada por usuario**  
+<img src="https://github.com/user-attachments/assets/513d1633-e2f7-42fa-83b6-eb626bdb8d58" width="400">  
+
+**Resultado del analisis con ia**  
+<img src="https://github.com/user-attachments/assets/75a30554-cb64-4c30-bac4-e25a30c7ee29" width="400">  
+
+
+
